@@ -8,7 +8,7 @@ const Index = () => {
       <Flex align="center" justify="center" height="100vh" bg="gray.200" bgImage="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhlcm98ZW58MHx8fHwxNzEzMzQyNTgzfDA&ixlib=rb-4.0.3&q=80&w=1080" bgSize="cover" bgPosition="center" bgRepeat="no-repeat">
         <VStack spacing={4}>
           <Heading as="h1" size="2xl" color="white">
-            Welcome to Our Business
+            Welcome to Innovative Software Solutions
           </Heading>
           <Text fontSize="xl" color="white">
             Delivering excellence in all we do.
@@ -24,7 +24,7 @@ const Index = () => {
         <Heading as="h2" size="xl">
           About Us
         </Heading>
-        <Text fontSize="lg">Our company has been providing top-notch services since 1995. We specialize in offering personalized solutions that meet the unique needs of our clients.</Text>
+        <Text fontSize="lg">Innovative Software Solutions is a leading software agency known for designing and selling innovative software solutions that cater to a wide range of business needs.</Text>
         <Image src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3MTMzNDI1ODN8MA&ixlib=rb-4.0.3&q=80&w=1080" />
       </Stack>
 
@@ -36,21 +36,21 @@ const Index = () => {
         <Flex direction={{ base: "column", md: "row" }} justify="space-around">
           <Box p={5} shadow="md" borderWidth="1px">
             <Heading as="h3" size="lg">
-              Service 1
+              Custom Software Development
             </Heading>
-            <Text mt={4}>Description of Service 1.</Text>
+            <Text mt={4}>We provide tailored software solutions that are specifically designed to meet the unique demands of your business.</Text>
           </Box>
           <Box p={5} shadow="md" borderWidth="1px">
             <Heading as="h3" size="lg">
-              Service 2
+              IT Consulting
             </Heading>
-            <Text mt={4}>Description of Service 2.</Text>
+            <Text mt={4}>Our IT consulting services help businesses innovate and optimize processes to achieve more with technology.</Text>
           </Box>
           <Box p={5} shadow="md" borderWidth="1px">
             <Heading as="h3" size="lg">
-              Service 3
+              Product Design
             </Heading>
-            <Text mt={4}>Description of Service 3.</Text>
+            <Text mt={4}>From concept to launch, we design stunning and functional digital products that users love.</Text>
           </Box>
         </Flex>
       </Stack>
